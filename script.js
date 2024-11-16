@@ -6,16 +6,16 @@ function showModal(imageId) {
     // Изменяем картинку и описание в зависимости от выбранного изображения
     if (imageId === 'img1') {
         modalImg.src = "https://via.placeholder.com/600x400/FFB6C1/000000?text=Любовь+1";
-        modalDescription.innerText = "Нежность и забота — главные составляющие любви.";
+        modalDescription.innerText = "Я тебя люблю очень сильно!";
     } else if (imageId === 'img2') {
         modalImg.src = "https://via.placeholder.com/600x400/FF69B4/000000?text=Любовь+2";
-        modalDescription.innerText = "Взаимная поддержка и доверие — важные элементы настоящих отношений.";
+        modalDescription.innerText = "Ты как новый смысл жизни!";
     } else if (imageId === 'img3') {
         modalImg.src = "https://via.placeholder.com/600x400/FF1493/000000?text=Любовь+3";
-        modalDescription.innerText = "Любовь — это когда два сердца бьются в унисон.";
+        modalDescription.innerText = "Я хуй знает че тут писать, но я люблю тебя <3";
     } else if (imageId === 'img4') {
         modalImg.src = "https://via.placeholder.com/600x400/FFC0CB/000000?text=Любовь+4";
-        modalDescription.innerText = "Любовь — это свет, который согревает в самые холодные дни.";
+        modalDescription.innerText = "Ты самый теплый солнечный свет в эти зимние дни!";
     }
 
     // Показываем модальное окно с эффектом
