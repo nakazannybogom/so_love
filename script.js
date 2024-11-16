@@ -18,11 +18,13 @@ function showModal(imageId) {
         modalDescription.innerText = "Любовь — это свет, который согревает в самые холодные дни.";
     }
 
-    // Показываем модальное окно
+    // Показываем модальное окно с эффектом
     modal.style.display = 'flex';
+    modal.style.opacity = 1;
 }
 
 function closeModal() {
     const modal = document.getElementById('modal');
     modal.style.display = 'none';
+    modal.style.opacity = 0;
 }
