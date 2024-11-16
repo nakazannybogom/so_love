@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея Любви</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Галерея Любви</h1>
+        <p>Погрузитесь в атмосферу романтики и нежности</p>
+    </header>
+
+    <section class="gallery">
+        <div class="gallery-item" onclick="showModal('img1')">
+            <img src="https://via.placeholder.com/300x200/FFB6C1/000000?text=Любовь+1" alt="Любовь 1">
+        </div>
+        <div class="gallery-item" onclick="showModal('img2')">
+            <img src="https://via.placeholder.com/300x200/FF69B4/000000?text=Любовь+2" alt="Любовь 2">
+        </div>
+        <div class="gallery-item" onclick="showModal('img3')">
+            <img src="https://via.placeholder.com/300x200/FF1493/000000?text=Любовь+3" alt="Любовь 3">
+        </div>
+        <div class="gallery-item" onclick="showModal('img4')">
+            <img src="https://via.placeholder.com/300x200/FFC0CB/000000?text=Любовь+4" alt="Любовь 4">
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-img" src="" alt="Романтическая фотография">
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Галерея Любви. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
