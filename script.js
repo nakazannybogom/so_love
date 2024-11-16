@@ -5,16 +5,16 @@ function showModal(imageId) {
 
     // Изменяем картинку и описание в зависимости от выбранного изображения
     if (imageId === 'img1') {
-        modalImg.src = "https://via.placeholder.com/600x400/FFB6C1/000000?text=Любовь+1";
+        modalImg.src = "photo_2024-11-17_00-14-52.jpg";
         modalDescription.innerText = "Я тебя люблю очень сильно!";
     } else if (imageId === 'img2') {
-        modalImg.src = "https://via.placeholder.com/600x400/FF69B4/000000?text=Любовь+2";
+        modalImg.src = "photo_2024-11-17_00-14-54.jpg";
         modalDescription.innerText = "Ты как новый смысл жизни!";
     } else if (imageId === 'img3') {
-        modalImg.src = "https://via.placeholder.com/600x400/FF1493/000000?text=Любовь+3";
+        modalImg.src = "photo_2024-11-17_00-14-55.jpg";
         modalDescription.innerText = "Я хуй знает че тут писать, но я люблю тебя <3";
     } else if (imageId === 'img4') {
-        modalImg.src = "https://via.placeholder.com/600x400/FFC0CB/000000?text=Любовь+4";
+        modalImg.src = "photo_2024-11-17_00-14-56.jpg";
         modalDescription.innerText = "Ты самый теплый солнечный свет в эти зимние дни!";
     }
 
